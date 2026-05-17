@@ -1,6 +1,6 @@
 alert("hello world");
 
-console.log("Your Code is Cute...")
+console.log("Yo")
 
 var a = prompt("Enter your number")
 var istrue = confirm("r u sure u want to go back")
