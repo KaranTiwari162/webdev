@@ -1,12 +1,12 @@
-// let marks = {
-//     Harry : 98,
-//     Rohan : 70,
-//     Karan : 7
-// }
-// for (let i = 0; i < Object.keys(marks).length; i++) {
-//    let key = Object.keys(marks)[i];
+let marks = {
+    Harry : 98,
+    Rohan : 70,
+    Karan : 7
+}
+for (let i = 0; i < Object.keys(marks).length; i++) {
+   let key = Object.keys(marks)[i];
 
-//   console.log(key + " marks are " + marks[key]); }
+  console.log(key + " marks are " + marks[key]); }
 
 // let obj ={
 //     name: "karan",
@@ -34,4 +34,24 @@
         
         
     // }
+
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log(i);
+// }
+
+
+// let obj={
+//     karan : 55,
+//     shubham : 88
+// }
+//  for (key in obj) {
+//       console.log(key,obj[key]);
+//  }
+
+// let obj=["karan : 55,shubham : 88"]
+    
+//     for ( let value of obj) {
+//         console.log(obj)
+//     }
 
