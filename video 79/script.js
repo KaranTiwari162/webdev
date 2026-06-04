@@ -9,7 +9,7 @@ try {
     console.log(sum*x)
     return true
 } catch (error) {
-   console.log("eerrorrr aaagyaaa laadleeey x to chli gyi") 
+   console.log("eerrorrrrr aaagyaaa laadleeey x to chli gyi") 
    return false
 }
 // finally used aata hai catch and error ko return krne k baad bhi chlta hai
