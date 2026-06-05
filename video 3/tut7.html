@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backened.php">
+        <!-- div for next line or block  -->
+        <!-- br use for width and paddling  but not recmd-->
+        <label for="Name">Name:</label>
+        <div><input type="text" name=" My name" id="Name"></div><br>
+
+        <label for="roll no"> Roll no:</label>
+        <div> <input type="text" name=" roll no" id="roll no"></div><br>
+
+        <label for="class">Class:</label>
+        <div> <input type="text" name=" My class" id="class"></div><br>
+
+        <label for="section">Section:</label>
+        <div> <input type="text" name=" My Section" id="section"></div><br>
+
+        <!-- inpu colon email  -->
+        <div> Email: <input type="email" name=" My Email"></div><br>
+
+        <div> DOB:<input type="date" name="My Date"></div><br>
+
+
+        <div> Bonus:<input type="number" name="My Bonus"></div><br>
+
+        <div> Are you eligible?:<input type="checkbox" name="My Eligibility"></div><br>
+
+        <!-- by default checked chaye to checked likhdo  -->
+
+        <div> Gender: Male<input type="radio" name="My Gender">
+
+            Female<input type="radio" name="My Gender">
+
+            Other<input type="radio" name="My Gender"></div><br>
+
+        <div>
+            <label for="car">Car</label>
+            <select name="My car" id="car">
+                <option value="Indica">Indica</option>
+                <option value="Porsche">Porsche</option>
+                <!-- by default chaye to slected likhdo  -->
+            </select>
+        </div><br>
+
+        <div> Write about yourself: <br><textarea name="My text" cols="30" rows="10"></textarea></div><br>
+
+        <!-- input colon submit for submit  -->
+        <div> <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <!-- alt plus down arrow key to move something  -->
+    </form>
+</body>
+
+</html>
